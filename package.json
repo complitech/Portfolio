@@ -3,11 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "mgr-pdf-viewer-react": "^1.0.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-mdl": "^1.11.0",
+    "react-pdf": "^4.0.5",
+    "react-pdf-preview": "^1.0.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "simple-pdf-viewer": "^2.0.3"
   },
   "scripts": {
     "start": "react-scripts start",

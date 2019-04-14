@@ -59,7 +59,7 @@ background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, F
 }
 
 .contact-grid hr {
-  border-top: 5px dotted black;
+  border-top: 1px solid black;
   width: 50%;
   margin: auto;
 }
@@ -69,6 +69,11 @@ background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, F
   padding-right: 5rem;
 }
 
+.resume_heading{
+  padding-top: 15px;
+  font-size: 50px;
+  color: aliceblue; 
+}
 
 /* contact page css */
 
@@ -104,6 +109,7 @@ background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, F
 }
 .banner-text h1 {
   padding-top: 10px;
+  font-size: 45px;
 }
 
 .social-links {
