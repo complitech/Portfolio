@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-
+import { Grid, Cell, List, ListItem, ListItemContent, Textfield,Button } from 'react-mdl';
 
 class Contact extends Component {
   render() {
@@ -10,7 +9,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Ronak Bhatt</h2>
             <img
-              src="https://srv2.imgonline.com.ua/result_img/imgonline-com-ua-shape-mG1HW6QVkfB.png"
+              src="https://i.imgur.com/hpuTDHL.png"
               alt="avatar"
               style={{height: '250px'}}
                />
@@ -41,6 +40,19 @@ class Contact extends Component {
                 </ListItem>
               </List>
             </div>
+          </Cell>
+          <Cell col={12}>
+          <Cell col={6}>
+            <Textfield
+                onChange={() => {}}
+                label="Text..."
+                style={{width: '500px'}}
+                rows={3}
+            />
+          </Cell>
+          <Cell col={6}>
+            <Button raised colored>Button</Button>
+          </Cell>
           </Cell>
         </Grid>
       </div>
